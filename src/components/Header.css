@@ -7,8 +7,19 @@
   display: flex;
   flex: 1;
   justify-content: space-between;
+  align-items: center;
 }
 .header-h2 {
   font-family: monospace;
   font-size: 30px;
+}
+
+.logout-btn {
+  padding: 10px;
+  background: orangered;
+  border: 'none';
+  margin-bottom: 15px;
+}
+.logout-btn:hover{
+  background: rgb(0, 6, 59);
 }
